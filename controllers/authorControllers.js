@@ -1,5 +1,4 @@
 const Author = require("../models/Author");
-const Book = require("../models/Book");
 
 const authorController = {
   async getAllAuthors(req, res) {

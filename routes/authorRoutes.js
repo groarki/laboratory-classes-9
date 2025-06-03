@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const authorController = require("../controllers/authorController");
+const authorController = require("../controllers/authorControllers");
 
 // GET /api/authors
 router.get("/", authorController.getAllAuthors);
